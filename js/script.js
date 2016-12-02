@@ -459,6 +459,7 @@
           .attr('fill-opacity', vdbValue)
           .html($('<title>').text(value['Gebietsname'] + ' VDB: ' + value['Van der Bellen %'] + '%'));
 
+
         $('.legend-01', $mapHofer).attr('fill', 'blue').attr('fill-opacity', 0.0);
         $('.legend-02', $mapHofer).attr('fill', 'blue').attr('fill-opacity', 0.2);
         $('.legend-03', $mapHofer).attr('fill', 'blue').attr('fill-opacity', 0.4);
@@ -472,8 +473,19 @@
         $('.legend-04', $mapVdb).attr('fill', 'green').attr('fill-opacity', 0.6);
         $('.legend-05', $mapVdb).attr('fill', 'green').attr('fill-opacity', 0.8);
         $('.legend-06', $mapVdb).attr('fill', 'green').attr('fill-opacity', 1.0);
-
       });
+
+      var $hoferMapBriefwahl = $('#wg2_1_briefwahl_hofer_map');
+      var $vdbMapBriefwahl = $('#wg2_1_briefwahl_vdb_map');
+
+      $('.legend-01', $hoferMapBriefwahl).hide();
+      $('.legend-06', $hoferMapBriefwahl).hide();
+      $('.legend-01-text', $hoferMapBriefwahl).hide();
+      $('.legend-06-text', $hoferMapBriefwahl).hide();
+      $('.legend-01', $vdbMapBriefwahl).hide();
+      $('.legend-06', $vdbMapBriefwahl).hide();
+      $('.legend-01-text', $vdbMapBriefwahl).hide();
+      $('.legend-06-text', $vdbMapBriefwahl).hide();
 
       var $maps = $('.map');
 
