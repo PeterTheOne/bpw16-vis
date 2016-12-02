@@ -478,14 +478,14 @@
       var $hoferMapBriefwahl = $('#wg2_1_briefwahl_hofer_map');
       var $vdbMapBriefwahl = $('#wg2_1_briefwahl_vdb_map');
 
-      $('.legend-01', $hoferMapBriefwahl).hide();
-      $('.legend-06', $hoferMapBriefwahl).hide();
-      $('.legend-01-text', $hoferMapBriefwahl).hide();
-      $('.legend-06-text', $hoferMapBriefwahl).hide();
-      $('.legend-01', $vdbMapBriefwahl).hide();
-      $('.legend-06', $vdbMapBriefwahl).hide();
-      $('.legend-01-text', $vdbMapBriefwahl).hide();
-      $('.legend-06-text', $vdbMapBriefwahl).hide();
+      $('.legend-01', $hoferMapBriefwahl).show();
+      $('.legend-06', $hoferMapBriefwahl).show();
+      $('.legend-01-text', $hoferMapBriefwahl).show();
+      $('.legend-06-text', $hoferMapBriefwahl).show();
+      $('.legend-01', $vdbMapBriefwahl).show();
+      $('.legend-06', $vdbMapBriefwahl).show();
+      $('.legend-01-text', $vdbMapBriefwahl).show();
+      $('.legend-06-text', $vdbMapBriefwahl).show();
 
       var $maps = $('.map');
 

@@ -189,14 +189,14 @@
 		915.723,782.358 913.754,768.574 905.88,768.574 900.959,759.715 910.802,751.841 905.88,734.122 921.629,753.81 	"/>
 
 
-		<rect class="legend-01" fill="#cccccc" stroke="#505050" stroke-width="1" x="220" y="855" width="40" height="20" />
+		<rect class="legend-01" fill="#cccccc" stroke="#505050" stroke-width="1" x="220" y="855" width="40" height="20" style="display: none;" />
 		<rect class="legend-02" fill="#cccccc" stroke="#505050" stroke-width="1" x="220" y="880" width="40" height="20" />
 		<rect class="legend-03" fill="#cccccc" stroke="#505050" stroke-width="1" x="220" y="905" width="40" height="20" />
 		<rect class="legend-04" fill="#cccccc" stroke="#505050" stroke-width="1" x="220" y="930" width="40" height="20" />
 		<rect class="legend-05" fill="#cccccc" stroke="#505050" stroke-width="1" x="220" y="955" width="40" height="20" />
-		<rect class="legend-06" fill="#cccccc" stroke="#505050" stroke-width="1" x="220" y="980" width="40" height="20" />
+		<rect class="legend-06" fill="#cccccc" stroke="#505050" stroke-width="1" x="220" y="980" width="40" height="20" style="display: none;" />
 
-		<text class="legend-01-text" x="270" y="870" font-family="Verdana" font-size="20">
+		<text class="legend-01-text" x="270" y="870" font-family="Verdana" font-size="20" style="display: none;">
             20,1 % - 30 %
         </text>
 		<text class="legend-02-text" x="270" y="895" font-family="Verdana" font-size="20">
@@ -211,7 +211,7 @@
 		<text class="legend-05-text" x="270" y="970" font-family="Verdana" font-size="20">
             60,1 % - 70 %
         </text>
-		<text class="legend-06-text" x="270" y="995" font-family="Verdana" font-size="20">
+		<text class="legend-06-text" x="270" y="995" font-family="Verdana" font-size="20" style="display: none;">
             70,1 % - 80 %
         </text>
 </g>
