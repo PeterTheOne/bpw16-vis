@@ -6,8 +6,8 @@
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1050px" height="730px"
 	 viewBox="0 0 1050 730" enable-background="new 0 0 1050 730" xml:space="preserve">
 <g id="layer1" transform="translate(0,-322.36218)">
-	
-		<path id="path7044" fill="#F4D4AC" stroke="#505050" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+
+		<path id="path7044" fill="#FFFFFF" stroke="#505050" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
 		M730.692,736.089l14.764,1.969L774,737.074l3.938,4.923L774,748.89l7.873-1.969l-1.969,4.922l2.949,0.983l-7.87,5.905l-1.969,8.858
 		l-2.953,11.814l2.953,7.874l-7.874,4.921l1.969,5.91l-10.827,4.921l-1.969-4.921l-5.905,2.952l-0.983-2.952l-14.766,3.938
 		l-9.839-3.938l-5.905-15.752h3.938l3.938-13.784l-5.905-2.952l-0.984-10.827l-4.921-0.984l4.921-4.921l-1.968-4.921l11.811,2.952
@@ -187,5 +187,32 @@
 		824.195,770.547 828.131,768.574 831.078,774.484 838.953,774.484 842.891,780.389 841.906,790.232 857.656,793.185 865.53,798.11 
 		872.419,797.127 884.227,779.406 887.179,781.375 895.053,781.375 896.036,788.264 903.91,793.185 905.88,789.249 911.785,789.249 
 		915.723,782.358 913.754,768.574 905.88,768.574 900.959,759.715 910.802,751.841 905.88,734.122 921.629,753.81 	"/>
+
+
+		<rect class="legend-01" fill="#cccccc" stroke="#505050" stroke-width="1" x="240" y="855" width="20" height="20" />
+		<rect class="legend-02" fill="#cccccc" stroke="#505050" stroke-width="1" x="240" y="880" width="20" height="20" />
+		<rect class="legend-03" fill="#cccccc" stroke="#505050" stroke-width="1" x="240" y="905" width="20" height="20" />
+		<rect class="legend-04" fill="#cccccc" stroke="#505050" stroke-width="1" x="240" y="930" width="20" height="20" />
+		<rect class="legend-05" fill="#cccccc" stroke="#505050" stroke-width="1" x="240" y="955" width="20" height="20" />
+		<rect class="legend-06" fill="#cccccc" stroke="#505050" stroke-width="1" x="240" y="980" width="20" height="20" />
+
+		<text x="270" y="870" font-family="Verdana" font-size="20">
+            20 % - 30 %
+        </text>
+		<text x="270" y="895" font-family="Verdana" font-size="20">
+            30 % - 40 %
+        </text>
+		<text x="270" y="920" font-family="Verdana" font-size="20">
+            40 % - 50 %
+        </text>
+		<text x="270" y="945" font-family="Verdana" font-size="20">
+            50 % - 60 %
+        </text>
+		<text x="270" y="970" font-family="Verdana" font-size="20">
+            60 % - 70 %
+        </text>
+		<text x="270" y="995" font-family="Verdana" font-size="20">
+            70 % - 100 %
+        </text>
 </g>
 </svg>

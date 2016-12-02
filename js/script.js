@@ -420,13 +420,58 @@
         var $mapHofer = $(id + 'hofer_map');
         var $mapVdb = $(id + 'vdb_map');
 
+        var hoferValue = value['Hofer %'];
+        var vdbValue = value['Van der Bellen %'];
+
+        hoferValue -= 20;
+        vdbValue -= 20;
+
+        hoferValue *= 2; // range from 20 to 70 is 50 of 100 long.
+        vdbValue *= 2;
+
+        hoferValue /= 20;
+        vdbValue /= 20;
+
+        hoferValue = Math.floor(hoferValue);
+        vdbValue = Math.floor(vdbValue);
+
+        hoferValue *= 20;
+        vdbValue *= 20;
+
+        hoferValue /= 100;
+        vdbValue /= 100;
+
+        hoferValue = hoferValue > 1 ? 1 : hoferValue;
+        vdbValue = vdbValue > 1 ? 1 : vdbValue;
+
+        hoferValue = hoferValue < 0 ? 0 : hoferValue;
+        vdbValue = vdbValue < 0 ? 0 : vdbValue;
+
+        console.log(hoferValue);
+        console.log(vdbValue);
+
         $('.' + name, $mapHofer)
           .attr('fill', 'blue')
-          .attr('fill-opacity', Math.round(value['Hofer %'] / 10) / 10)
+          .attr('fill-opacity', hoferValue)
           .html($('<title>').text(value['Gebietsname'] + ' Hofer: ' + value['Hofer %'] + '%'));
         $('.' + name, $mapVdb)
           .attr('fill', 'green')
-          .attr('fill-opacity', Math.round(value['Van der Bellen %'] / 10) / 10);
+          .attr('fill-opacity', vdbValue)
+          .html($('<title>').text(value['Gebietsname'] + ' VDB: ' + value['Van der Bellen %'] + '%'));
+
+        $('.legend-01', $mapHofer).attr('fill', 'blue').attr('fill-opacity', 0.0);
+        $('.legend-02', $mapHofer).attr('fill', 'blue').attr('fill-opacity', 0.2);
+        $('.legend-03', $mapHofer).attr('fill', 'blue').attr('fill-opacity', 0.4);
+        $('.legend-04', $mapHofer).attr('fill', 'blue').attr('fill-opacity', 0.6);
+        $('.legend-05', $mapHofer).attr('fill', 'blue').attr('fill-opacity', 0.8);
+        $('.legend-06', $mapHofer).attr('fill', 'blue').attr('fill-opacity', 1.0);
+
+        $('.legend-01', $mapVdb).attr('fill', 'green').attr('fill-opacity', 0.0);
+        $('.legend-02', $mapVdb).attr('fill', 'green').attr('fill-opacity', 0.2);
+        $('.legend-03', $mapVdb).attr('fill', 'green').attr('fill-opacity', 0.4);
+        $('.legend-04', $mapVdb).attr('fill', 'green').attr('fill-opacity', 0.6);
+        $('.legend-05', $mapVdb).attr('fill', 'green').attr('fill-opacity', 0.8);
+        $('.legend-06', $mapVdb).attr('fill', 'green').attr('fill-opacity', 1.0);
 
       });
 
