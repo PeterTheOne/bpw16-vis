@@ -847,6 +847,10 @@
 
       $('.legend-01', $hoferMapBriefwahl2).show();
       $('.legend-01-text', $hoferMapBriefwahl2).show();
+      $('.legend-05', $hoferMapBriefwahl2).hide();
+      $('.legend-05-text', $hoferMapBriefwahl2).hide();
+      $('.legend-02', $vdbMapBriefwahl2).hide();
+      $('.legend-02-text', $vdbMapBriefwahl2).hide();
       $('.legend-06', $vdbMapBriefwahl2).show();
       $('.legend-06-text', $vdbMapBriefwahl2).show();
 
